@@ -1,16 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Aboutus from "./pages/Aboutus";
+import Donate from "./pages/Donate";
+import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound"
+
 function App() {
   return (
-    <>
-     <Navbar />
-    <div className='bg-indigo-600 w-full h-screen'>
-    
-    </div>
-    <Footer/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path="/" element={<Home/>} /> */}
+        <Route path="/home" element={<Home />}/>
+        <Route path="/services" element={<Services />} />
+        <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="*" element={<NotFound/>} /> */}
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 
