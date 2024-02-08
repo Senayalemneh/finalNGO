@@ -17,7 +17,7 @@ export default function Donate(){
                 <img className="w-full md:h-full object-cover " src={IMG1} />
                 </div>
                 <div className="bg-indigo-100">
-             <h1 className="p-6 ">
+             <h1 className="p-6 hover:opacity-85 hover:rounded-xl ">
                <div className="text-center"><span className="text-4xl font-bold text-center text-blue-600">Womens Care fundrising</span></div> 
 Step into the realm of meaningful impact with Bright Thought Children
 and Women Organization. Your generosity has the power to shape a brighter
@@ -40,7 +40,7 @@ and Women Organization. Your generosity has the power to shape a brighter
             create a future filled with promise and positivity.
                    </h1>
                    <div className="flex justify-center">
-                   <button className="bg-blue-600 p-3 rounded-xl mb-4 text-white">
+                   <button className="bg-blue-600 p-3 rounded-xl mb-4 text-white hover:scale-110 ">
                     Donate
                    </button>
                    </div>
@@ -74,7 +74,7 @@ and Women Organization. Your generosity has the power to shape a brighter
             create a future filled with promise and positivity.
                    </h1>
                    <div className="flex justify-center">
-                   <button className="bg-blue-600 p-3 rounded-xl text-white">
+                   <button className="bg-blue-600 p-3 rounded-xl text-white hover:scale-110">
                     Donate
                    </button>
                    </div>

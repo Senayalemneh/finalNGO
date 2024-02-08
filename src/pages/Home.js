@@ -15,25 +15,35 @@ import IMG2 from "../images/222.jpg"
 import IMG3 from "../images/333.jpg"
 import IMG4 from "../images/444.jpg"
 import IMGFINAL from "../images/Final NGO.png"
+import Carousel from "../components/Carousel ";
 
 
 
 export default function Home() {
   return (
     <div className="">
-    <Navbar />
-         <div className="flex flex-col">
+      <div className="">
+      <Navbar />
+      </div>
+    
+        {/* Carousel */}
+       <di className="">
+       <Carousel/>
+       </di>
+
+       <div className="  text-4xl ">
+      <h1 className="absolute mt-10  rounded-2xl  h-16  w-70  lg:text-4xl md:inset-24 md:text-2xl sm:inset-20 sm:text-xl inset-20 text-white   text-center font-bold text-stroke  ">Bright Thought Women and Children Organization!</h1>
+      <h1 className="absolute mt-24 rounded-2xl  h-20  w-70  lg:text-4xl md:inset-24 md:text-2xl sm:inset-20 sm:text-xl inset-30  text-white text-center font-bold">Empowering Women, Nurturing Children: Building a Brighter Future Together</h1>
+      </div>
+    <div className="flex flex-col">
     <div className="bg-indigo-600 min-h-screen ">
     <div>
     <div className="h-full">
       <div className="flex mt-24">
-      <img className="w-full h-full object-cover" src={IMGFINAL} alt="Home Image"/>
+      <img className="w-full h-screen mt-0 object-cover" src={IMGFINAL} alt="Home Image"/>
       </div>
       
-      {/* <div className=" text-strock text-stroke-black text-4xl ">
-      <h1 className="absolute rounded-2xl  h-16  w-70 opacity-100 lg:inset-28 lg:text-4xl md:inset-24 md:text-2xl sm:inset-20 sm:text-xl inset-20 text-green-400 text-center font-bold text-stroke  ">Bright Thought Women and Children Organization!</h1>
-      <h1 className="absolute rounded-2xl  h-20  w-70 opacity-100 lg:inset-48 lg:text-4xl md:inset-24 md:text-2xl sm:inset-20 sm:text-xl inset-30  text-green-400 text-center font-bold">Empowering Women, Nurturing Children: Building a Brighter Future Together</h1>
-      </div> */}
+      
       </div>
     </div>
     </div>
@@ -50,7 +60,7 @@ export default function Home() {
       </div>
           
       <div >
-        <h1 className="m-5 text-center m-10">Dear Supporters and Champions of Bright Thought Children and Women Organization,
+        <h1 className="m-10 text-left">Dear Supporters and Champions of Bright Thought Children and Women Organization,
 
 As the director of this transformative endeavor, I am filled with gratitude for the unwavering support that has fueled our journey towards creating a profound impact. At Bright Thought, our vision extends beyond providing a caring daycare and empowering through skill development; it resonates with the belief that every child and woman, irrespective of their circumstances, holds boundless potential. We aspire to mold not just skilled individuals but extraordinary citizens, instilling values of compassion, integrity, and community service. Our holistic approach, encompassing mentorship, education, and practical training, aims to nurture leaders who will contribute positively to the growth of our nation.
 
@@ -58,9 +68,9 @@ Our commitment goes far beyond childhood; it is a lifelong dedication to breakin
 
 With heartfelt appreciation,
 <br></br>
-<h1 className=" font-bold text-4xl text-blue-300"> Senayit Degefu</h1>
+<h1 className=" font-bold text-2xl "> Senayit Degefu</h1>
 <br></br>
-Director, Bright Thought Children and Women Organization</h1>
+<h1 className="font-bold text-xl">Director, Bright Thought Children and Women Organization</h1></h1>
       </div>
 
            
