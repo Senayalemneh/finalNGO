@@ -26,8 +26,8 @@ export default function Home() {
     <div className="bg-indigo-600 min-h-screen ">
     <div>
     <div className="h-full">
-      <div className="flex">
-      <img className="w-full h-2/6 " src={IMGFINAL} alt="Home Image"/>
+      <div className="flex mt-24">
+      <img className="w-full h-full object-cover" src={IMGFINAL} alt="Home Image"/>
       </div>
       
       {/* <div className=" text-strock text-stroke-black text-4xl ">
