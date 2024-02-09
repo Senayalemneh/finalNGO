@@ -40,7 +40,7 @@ export default function Home() {
     <div>
     <div className="h-full">
       <div className="flex mt-24">
-      <img className="w-full h-screen mt-0 object-cover" src={IMGFINAL} alt="Home Image"/>
+      <img className="w-full h-screen mt-0 object-cover rounded-2xl" src={IMGFINAL} alt="Home Image"/>
       </div>
       
       
@@ -56,7 +56,7 @@ export default function Home() {
 
     <div className="grid grid-cols-2 sm:grid-cols-2 m-6 mt-15">
     <div>
-       <img className="w-full m-4 hover:rounded-3xl hover:opacity-85 hover:cursor-pointer" src={Director}/>
+       <img className="w-full m-6 hover:rounded-3xl hover:opacity-85 hover:cursor-pointe rounded-2xl" src={Director}/>
       </div>
           
       <div >
@@ -84,18 +84,21 @@ With heartfelt appreciation,
 
           <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 m-10 ">
+  
+          <div className="border h-96 shadow-lg  flex flex-col hover:scale-110 "> 
+             <div><img  className="w-full h-64 mb-5" src={HAREGEWEYIN}/></div>
+             <div><p className="text-center lg:text-xl font-bold text-blue-600">ፕሮፌሰር ሐረገወይን አሰፋ</p></div>
+                <div><p className="text-center lg:text-xl font-bold">የቦርዱ አባል</p></div>
+                <div><p className="text-center lg:text-xl font-bold">Member of the board</p></div>
+             </div>
+
              <div className="border h-96 shadow-lg  flex flex-col hover:scale-110  ">
                 <div><img  className="w-full h-64 mb-5 " src={SENAY}/></div>
                 <div><p className="text-center lg:text-xl font-bold text-blue-600">ሠናይ አለምነህ</p></div>
                 <div><p className="text-center lg:text-xl font-bold">የቦርዱ ፀሃፊ እና የአይቲ ባለሙያ</p></div>
                 <div><p className="text-center lg:text-xl font-bold">Board Clerk and IT specialist</p></div>
              </div>
-             <div className="border h-96 shadow-lg  flex flex-col hover:scale-110 "> 
-             <div><img  className="w-full h-64 mb-5" src={HAREGEWEYIN}/></div>
-             <div><p className="text-center lg:text-xl font-bold text-blue-600">ፕሮፌሰር ሐረገወይን አሰፋ</p></div>
-                <div><p className="text-center lg:text-xl font-bold">የቦርዱ አባል</p></div>
-                <div><p className="text-center lg:text-xl font-bold">Member of the board</p></div>
-             </div>
+            
              <div className="border h-96 shadow-lg  flex flex-col hover:scale-110 ">
              <div><img  className="w-full h-64 mb-5" src={IMG1}/></div>
              <div><p className="text-center lg:text-xl font-bold text-blue-600">ይበልጣል አማረ</p></div>
